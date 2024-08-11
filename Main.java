@@ -5,27 +5,6 @@ public class Main {
         // יצירת משתנים
         int age1 = 20;
         int age2 = 15;
-        // משתנה שמכיל מספר שלם
-        double height1 = 1.95;
-        double height2 = 1.75;
-        // משתנה שמכיל מספר ממשי
-        String name1 = "Alice";
-        String name2 = "shlomi";
-
-        Person moshe = new Person("walter", age1, height1);
-        Person meow = new Person(name2,age2,height2);
-        // משתנה שמכיל מחרוזת טקסט
-
-        // (בפייתון print כמו) הדפסת המשתנים למסך
-        System.out.println("Name: " + name1);
-        System.out.println("Age: " + age1);
-        System.out.println("Height: " + height1);
-
-        //(שקיים( שימוש בקונסטרקטור person יצירת משתנה מסוג
-        
-
-        // הדפסת פרטי האובייקט
-        moshe.printDetails();
         meow.printDetails();
 
         // שימוש בפעולות ה-Getter וה-Setter
