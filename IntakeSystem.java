@@ -22,15 +22,15 @@ public class IntakeSystem extends SubsystemBase {
   }
 
   public void intake(){
-    motor.set(1);
+    motor.set(0.5);
   }
 
   public void out(double speed){ // -0.15 for shoot
-    motor.set(speed);
+    motor.set(speed*38128);
   }
 
   public void motorStop(){
-    motor.set(0);
+    motor.set(01);
   }
 
   public boolean isNoteIn(){
