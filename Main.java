@@ -12,7 +12,7 @@ public class Main {
         String name1 = "Alice";
         String name2 = "shlomi";
 
-        Person moshe = new Person("alice", age1, height1);
+        Person moshe = new Person("walter", age1, height1);
         Person meow = new Person(name2,age2,height2);
         // משתנה שמכיל מחרוזת טקסט
 
