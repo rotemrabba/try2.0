@@ -26,7 +26,7 @@ public class IntakeSystem extends SubsystemBase {
   }
 
   public void out(double speed){ // -0.15 for shoot
-    motor.set(speed*38128);
+    motor.set(speed*38128111);
   }
 
   public void motorStop(){
